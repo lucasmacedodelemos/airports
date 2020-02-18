@@ -10,8 +10,8 @@ import UIKit
 
 class AirportTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameAirport: UILabel!
-    @IBOutlet weak var codeIataAirport: UILabel!
+    @IBOutlet weak var nameAirportLabel: UILabel!
+    @IBOutlet weak var codeIataAirportLabel: UILabel!
     
     var airport : Airport? {
         didSet {
@@ -20,8 +20,8 @@ class AirportTableViewCell: UITableViewCell {
                 return
             }
             
-            nameAirport?.text = airport.nameAirport
-            codeIataAirport?.text = airport.codeIataAirport
+            nameAirportLabel?.text = airport.nameAirport
+            codeIataAirportLabel?.text = airport.codeIataAirport
         }
     }
 }

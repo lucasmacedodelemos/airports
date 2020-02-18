@@ -50,8 +50,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="codeIataAirport" destination="xAB-Jl-lPs" id="CPG-my-Zao"/>
-                                            <outlet property="nameAirport" destination="iQD-Gg-Sie" id="yqI-QY-eFO"/>
+                                            <outlet property="codeIataAirportLabel" destination="xAB-Jl-lPs" id="e46-Uz-cB1"/>
+                                            <outlet property="nameAirportLabel" destination="iQD-Gg-Sie" id="2kc-B5-BgY"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
