@@ -555,6 +555,7 @@
 				AVIATION_EDGE_API_KEY = "9456d0-d5457c";
 				AVIATION_EDGE_BASE_URL = "https://aviation-edge.com/v2/public/";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QSRB3R53F;
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,6 +575,7 @@
 				AVIATION_EDGE_API_KEY = "9456d0-d5457c";
 				AVIATION_EDGE_BASE_URL = "https://aviation-edge.com/v2/public/";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QSRB3R53F;
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
