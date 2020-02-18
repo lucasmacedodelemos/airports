@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD22AD0023F812E1002BA73B /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22ACFF23F812E1002BA73B /* ParserHelper.swift */; };
+		BD22AD0323F816FF002BA73B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0223F816FF002BA73B /* Result.swift */; };
+		BD22AD0523F8174E002BA73B /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0423F8174E002BA73B /* ErrorResult.swift */; };
+		BD22AD0823F81D78002BA73B /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0723F81D78002BA73B /* RequestService.swift */; };
+		BD22AD0A23F8201C002BA73B /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0923F8201C002BA73B /* RequestFactory.swift */; };
+		BD22AD0C23F822EF002BA73B /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0B23F822EF002BA73B /* RequestHandler.swift */; };
+		BD22AD0E23F8294C002BA73B /* AirportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0D23F8294C002BA73B /* AirportServiceTests.swift */; };
+		BD22AD1023F82AB2002BA73B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD0F23F82AB2002BA73B /* Country.swift */; };
+		BD22AD1223F82B95002BA73B /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22AD1123F82B95002BA73B /* AirportService.swift */; };
+		BD43FCE623F83CC8005D53D2 /* AirportViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCE523F83CC8005D53D2 /* AirportViewModelTests.swift */; };
+		BD43FCE923FAC2F9005D53D2 /* AirportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCE823FAC2F9005D53D2 /* AirportViewModel.swift */; };
+		BD43FCEB23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCEA23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift */; };
+		BD43FCED23FAC3F9005D53D2 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCEC23FAC3F9005D53D2 /* DynamicValue.swift */; };
+		BD43FCF023FAF8AC005D53D2 /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCEF23FAF8AC005D53D2 /* AirportViewController.swift */; };
+		BD43FCF223FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */; };
+		BD43FCF423FAFF6B005D53D2 /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */; };
+		BD43FCF623FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */; };
 		BD58662623F807BA001E6456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58662523F807BA001E6456 /* AppDelegate.swift */; };
 		BD58662823F807BA001E6456 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58662723F807BA001E6456 /* SceneDelegate.swift */; };
-		BD58662A23F807BA001E6456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58662923F807BA001E6456 /* ViewController.swift */; };
 		BD58662D23F807BA001E6456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58662B23F807BA001E6456 /* Main.storyboard */; };
 		BD58662F23F807BD001E6456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD58662E23F807BD001E6456 /* Assets.xcassets */; };
 		BD58663223F807BD001E6456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58663023F807BD001E6456 /* LaunchScreen.storyboard */; };
-		BD58663D23F807BD001E6456 /* AirportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58663C23F807BD001E6456 /* AirportsTests.swift */; };
+		BD58663D23F807BD001E6456 /* AirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58663C23F807BD001E6456 /* AirportTests.swift */; };
+		BD58664923F8107C001E6456 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58664823F8107C001E6456 /* Airport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +44,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD22ACFF23F812E1002BA73B /* ParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
+		BD22AD0223F816FF002BA73B /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BD22AD0423F8174E002BA73B /* ErrorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		BD22AD0723F81D78002BA73B /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		BD22AD0923F8201C002BA73B /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		BD22AD0B23F822EF002BA73B /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		BD22AD0D23F8294C002BA73B /* AirportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportServiceTests.swift; sourceTree = "<group>"; };
+		BD22AD0F23F82AB2002BA73B /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		BD22AD1123F82B95002BA73B /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
+		BD43FCE523F83CC8005D53D2 /* AirportViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewModelTests.swift; sourceTree = "<group>"; };
+		BD43FCE823FAC2F9005D53D2 /* AirportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewModel.swift; sourceTree = "<group>"; };
+		BD43FCEA23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSourceAndDelegate.swift; sourceTree = "<group>"; };
+		BD43FCEC23FAC3F9005D53D2 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		BD43FCEF23FAF8AC005D53D2 /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
+		BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataSourceAndDelegate.swift; sourceTree = "<group>"; };
+		BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
+		BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataSourceAndDelegateTests.swift; sourceTree = "<group>"; };
 		BD58662223F807BA001E6456 /* Airports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD58662523F807BA001E6456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD58662723F807BA001E6456 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD58662923F807BA001E6456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD58662C23F807BA001E6456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD58662E23F807BD001E6456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD58663123F807BD001E6456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD58663323F807BD001E6456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD58663823F807BD001E6456 /* AirportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD58663C23F807BD001E6456 /* AirportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsTests.swift; sourceTree = "<group>"; };
+		BD58663C23F807BD001E6456 /* AirportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTests.swift; sourceTree = "<group>"; };
 		BD58663E23F807BD001E6456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD58664823F8107C001E6456 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD22ACFD23F8127E002BA73B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BD22AD0623F81D58002BA73B /* Network */,
+				BD22AD0123F816D3002BA73B /* Result */,
+				BD22ACFE23F8129D002BA73B /* Parser */,
+				BD22AD1123F82B95002BA73B /* AirportService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BD22ACFE23F8129D002BA73B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				BD22ACFF23F812E1002BA73B /* ParserHelper.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		BD22AD0123F816D3002BA73B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				BD22AD0223F816FF002BA73B /* Result.swift */,
+				BD22AD0423F8174E002BA73B /* ErrorResult.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		BD22AD0623F81D58002BA73B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BD22AD0723F81D78002BA73B /* RequestService.swift */,
+				BD22AD0923F8201C002BA73B /* RequestFactory.swift */,
+				BD22AD0B23F822EF002BA73B /* RequestHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BD43FCE723FAC2C9005D53D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD43FCE823FAC2F9005D53D2 /* AirportViewModel.swift */,
+				BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */,
+				BD43FCEA23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD43FCEE23FAF866005D53D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD43FCEF23FAF8AC005D53D2 /* AirportViewController.swift */,
+				BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BD58661923F807BA001E6456 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +170,12 @@
 		BD58662423F807BA001E6456 /* Airports */ = {
 			isa = PBXGroup;
 			children = (
+				BD22ACFD23F8127E002BA73B /* Service */,
+				BD58664723F80B9C001E6456 /* Model */,
+				BD43FCE723FAC2C9005D53D2 /* ViewModel */,
+				BD43FCEE23FAF866005D53D2 /* View */,
 				BD58662523F807BA001E6456 /* AppDelegate.swift */,
 				BD58662723F807BA001E6456 /* SceneDelegate.swift */,
-				BD58662923F807BA001E6456 /* ViewController.swift */,
 				BD58662B23F807BA001E6456 /* Main.storyboard */,
 				BD58662E23F807BD001E6456 /* Assets.xcassets */,
 				BD58663023F807BD001E6456 /* LaunchScreen.storyboard */,
@@ -93,10 +187,23 @@
 		BD58663B23F807BD001E6456 /* AirportsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BD58663C23F807BD001E6456 /* AirportsTests.swift */,
+				BD58663C23F807BD001E6456 /* AirportTests.swift */,
+				BD22AD0D23F8294C002BA73B /* AirportServiceTests.swift */,
+				BD43FCE523F83CC8005D53D2 /* AirportViewModelTests.swift */,
+				BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */,
 				BD58663E23F807BD001E6456 /* Info.plist */,
 			);
 			path = AirportsTests;
+			sourceTree = "<group>";
+		};
+		BD58664723F80B9C001E6456 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD58664823F8107C001E6456 /* Airport.swift */,
+				BD22AD0F23F82AB2002BA73B /* Country.swift */,
+				BD43FCEC23FAC3F9005D53D2 /* DynamicValue.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +307,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD58662A23F807BA001E6456 /* ViewController.swift in Sources */,
+				BD22AD0A23F8201C002BA73B /* RequestFactory.swift in Sources */,
+				BD22AD0323F816FF002BA73B /* Result.swift in Sources */,
+				BD22AD0823F81D78002BA73B /* RequestService.swift in Sources */,
+				BD43FCEB23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift in Sources */,
+				BD22AD0023F812E1002BA73B /* ParserHelper.swift in Sources */,
+				BD43FCF023FAF8AC005D53D2 /* AirportViewController.swift in Sources */,
+				BD22AD1223F82B95002BA73B /* AirportService.swift in Sources */,
+				BD43FCED23FAC3F9005D53D2 /* DynamicValue.swift in Sources */,
+				BD22AD0523F8174E002BA73B /* ErrorResult.swift in Sources */,
+				BD43FCF423FAFF6B005D53D2 /* AirportTableViewCell.swift in Sources */,
+				BD43FCE923FAC2F9005D53D2 /* AirportViewModel.swift in Sources */,
+				BD22AD0C23F822EF002BA73B /* RequestHandler.swift in Sources */,
+				BD22AD1023F82AB2002BA73B /* Country.swift in Sources */,
+				BD58664923F8107C001E6456 /* Airport.swift in Sources */,
 				BD58662623F807BA001E6456 /* AppDelegate.swift in Sources */,
+				BD43FCF223FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift in Sources */,
 				BD58662823F807BA001E6456 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD58663D23F807BD001E6456 /* AirportsTests.swift in Sources */,
+				BD58663D23F807BD001E6456 /* AirportTests.swift in Sources */,
+				BD22AD0E23F8294C002BA73B /* AirportServiceTests.swift in Sources */,
+				BD43FCF623FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift in Sources */,
+				BD43FCE623F83CC8005D53D2 /* AirportViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +488,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AVIATION_EDGE_API_KEY = "9456d0-d5457c";
+				AVIATION_EDGE_BASE_URL = "https://aviation-edge.com/v2/public/";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +507,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AVIATION_EDGE_API_KEY = "9456d0-d5457c";
+				AVIATION_EDGE_BASE_URL = "https://aviation-edge.com/v2/public/";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
