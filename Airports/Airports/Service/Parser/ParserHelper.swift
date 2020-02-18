@@ -42,23 +42,4 @@ final class ParserHelper {
             completion(.failure(.parser(string: "Error while parsing json data")))
         }
     }
-    
-    static func parse<T: Parceable>(data: Data, completion : (Result<T, ErrorResult>) -> Void) {
-        
-        do {
-            if let dictionary = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: AnyObject] {
-                
-                switch T.parseObject(dictionary: dictionary) {
-                case .failure(let error):
-                    completion(.failure(error))
-                case .success(let newModel):
-                    completion(.success(newModel))
-                }
-            } else {
-                completion(.failure(.parser(string: "Json data is not an array")))
-            }
-        } catch {
-            completion(.failure(.parser(string: "Error while parsing json data")))
-        }
-    }
 }

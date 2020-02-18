@@ -24,6 +24,9 @@
 		BD43FCF223FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */; };
 		BD43FCF423FAFF6B005D53D2 /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */; };
 		BD43FCF623FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */; };
+		BD43FCF823FC175C005D53D2 /* AirportTimetableServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF723FC175C005D53D2 /* AirportTimetableServiceTests.swift */; };
+		BD43FCFA23FC17B2005D53D2 /* AirportTimetableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCF923FC17B2005D53D2 /* AirportTimetableService.swift */; };
+		BD43FCFC23FC1944005D53D2 /* AirportTimetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43FCFB23FC1944005D53D2 /* AirportTimetable.swift */; };
 		BD58662623F807BA001E6456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58662523F807BA001E6456 /* AppDelegate.swift */; };
 		BD58662823F807BA001E6456 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58662723F807BA001E6456 /* SceneDelegate.swift */; };
 		BD58662D23F807BA001E6456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58662B23F807BA001E6456 /* Main.storyboard */; };
@@ -31,6 +34,17 @@
 		BD58663223F807BD001E6456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58663023F807BD001E6456 /* LaunchScreen.storyboard */; };
 		BD58663D23F807BD001E6456 /* AirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58663C23F807BD001E6456 /* AirportTests.swift */; };
 		BD58664923F8107C001E6456 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58664823F8107C001E6456 /* Airport.swift */; };
+		BD9A74D023FC5188007CFBCF /* ArrivalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74CF23FC5188007CFBCF /* ArrivalViewModel.swift */; };
+		BD9A74D223FC57A8007CFBCF /* ArrivalViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74D123FC57A8007CFBCF /* ArrivalViewModelTests.swift */; };
+		BD9A74D423FC5B32007CFBCF /* ArrivalDataSourceAndDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74D323FC5B32007CFBCF /* ArrivalDataSourceAndDelegateTests.swift */; };
+		BD9A74D623FC5BBF007CFBCF /* ArrivalDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74D523FC5BBF007CFBCF /* ArrivalDataSourceAndDelegate.swift */; };
+		BD9A74D823FC5C6E007CFBCF /* ArrivalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74D723FC5C6E007CFBCF /* ArrivalTableViewCell.swift */; };
+		BD9A74DA23FC6687007CFBCF /* ArrivalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74D923FC6687007CFBCF /* ArrivalViewController.swift */; };
+		BD9A74DD23FC6B34007CFBCF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74DC23FC6B34007CFBCF /* StringExtension.swift */; };
+		BD9A74DF23FC6CEA007CFBCF /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74DE23FC6CEA007CFBCF /* StringExtensionTests.swift */; };
+		BD9A74E123FC72F2007CFBCF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74E023FC72F2007CFBCF /* DateExtension.swift */; };
+		BD9A74E323FC7338007CFBCF /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74E223FC7338007CFBCF /* DateExtensionTests.swift */; };
+		BD9A74E523FC85F6007CFBCF /* AirportTimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A74E423FC85F6007CFBCF /* AirportTimetableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +75,9 @@
 		BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataSourceAndDelegate.swift; sourceTree = "<group>"; };
 		BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
 		BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataSourceAndDelegateTests.swift; sourceTree = "<group>"; };
+		BD43FCF723FC175C005D53D2 /* AirportTimetableServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTimetableServiceTests.swift; sourceTree = "<group>"; };
+		BD43FCF923FC17B2005D53D2 /* AirportTimetableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTimetableService.swift; sourceTree = "<group>"; };
+		BD43FCFB23FC1944005D53D2 /* AirportTimetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTimetable.swift; sourceTree = "<group>"; };
 		BD58662223F807BA001E6456 /* Airports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD58662523F807BA001E6456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD58662723F807BA001E6456 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +89,17 @@
 		BD58663C23F807BD001E6456 /* AirportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTests.swift; sourceTree = "<group>"; };
 		BD58663E23F807BD001E6456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD58664823F8107C001E6456 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		BD9A74CF23FC5188007CFBCF /* ArrivalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalViewModel.swift; sourceTree = "<group>"; };
+		BD9A74D123FC57A8007CFBCF /* ArrivalViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalViewModelTests.swift; sourceTree = "<group>"; };
+		BD9A74D323FC5B32007CFBCF /* ArrivalDataSourceAndDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalDataSourceAndDelegateTests.swift; sourceTree = "<group>"; };
+		BD9A74D523FC5BBF007CFBCF /* ArrivalDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalDataSourceAndDelegate.swift; sourceTree = "<group>"; };
+		BD9A74D723FC5C6E007CFBCF /* ArrivalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalTableViewCell.swift; sourceTree = "<group>"; };
+		BD9A74D923FC6687007CFBCF /* ArrivalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalViewController.swift; sourceTree = "<group>"; };
+		BD9A74DC23FC6B34007CFBCF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BD9A74DE23FC6CEA007CFBCF /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		BD9A74E023FC72F2007CFBCF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		BD9A74E223FC7338007CFBCF /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		BD9A74E423FC85F6007CFBCF /* AirportTimetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTimetableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,7 @@
 				BD22AD0123F816D3002BA73B /* Result */,
 				BD22ACFE23F8129D002BA73B /* Parser */,
 				BD22AD1123F82B95002BA73B /* AirportService.swift */,
+				BD43FCF923FC17B2005D53D2 /* AirportTimetableService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -135,6 +164,8 @@
 			children = (
 				BD43FCE823FAC2F9005D53D2 /* AirportViewModel.swift */,
 				BD43FCF123FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift */,
+				BD9A74CF23FC5188007CFBCF /* ArrivalViewModel.swift */,
+				BD9A74D523FC5BBF007CFBCF /* ArrivalDataSourceAndDelegate.swift */,
 				BD43FCEA23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift */,
 			);
 			path = ViewModel;
@@ -145,6 +176,8 @@
 			children = (
 				BD43FCEF23FAF8AC005D53D2 /* AirportViewController.swift */,
 				BD43FCF323FAFF6B005D53D2 /* AirportTableViewCell.swift */,
+				BD9A74D923FC6687007CFBCF /* ArrivalViewController.swift */,
+				BD9A74D723FC5C6E007CFBCF /* ArrivalTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +203,7 @@
 		BD58662423F807BA001E6456 /* Airports */ = {
 			isa = PBXGroup;
 			children = (
+				BD9A74DB23FC6B20007CFBCF /* Resources */,
 				BD22ACFD23F8127E002BA73B /* Service */,
 				BD58664723F80B9C001E6456 /* Model */,
 				BD43FCE723FAC2C9005D53D2 /* ViewModel */,
@@ -191,6 +225,12 @@
 				BD22AD0D23F8294C002BA73B /* AirportServiceTests.swift */,
 				BD43FCE523F83CC8005D53D2 /* AirportViewModelTests.swift */,
 				BD43FCF523FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift */,
+				BD9A74E423FC85F6007CFBCF /* AirportTimetableTests.swift */,
+				BD43FCF723FC175C005D53D2 /* AirportTimetableServiceTests.swift */,
+				BD9A74D123FC57A8007CFBCF /* ArrivalViewModelTests.swift */,
+				BD9A74D323FC5B32007CFBCF /* ArrivalDataSourceAndDelegateTests.swift */,
+				BD9A74DE23FC6CEA007CFBCF /* StringExtensionTests.swift */,
+				BD9A74E223FC7338007CFBCF /* DateExtensionTests.swift */,
 				BD58663E23F807BD001E6456 /* Info.plist */,
 			);
 			path = AirportsTests;
@@ -202,8 +242,18 @@
 				BD58664823F8107C001E6456 /* Airport.swift */,
 				BD22AD0F23F82AB2002BA73B /* Country.swift */,
 				BD43FCEC23FAC3F9005D53D2 /* DynamicValue.swift */,
+				BD43FCFB23FC1944005D53D2 /* AirportTimetable.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BD9A74DB23FC6B20007CFBCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A74DC23FC6B34007CFBCF /* StringExtension.swift */,
+				BD9A74E023FC72F2007CFBCF /* DateExtension.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,22 +358,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD22AD0A23F8201C002BA73B /* RequestFactory.swift in Sources */,
+				BD9A74DD23FC6B34007CFBCF /* StringExtension.swift in Sources */,
 				BD22AD0323F816FF002BA73B /* Result.swift in Sources */,
 				BD22AD0823F81D78002BA73B /* RequestService.swift in Sources */,
 				BD43FCEB23FAC37B005D53D2 /* GenericDataSourceAndDelegate.swift in Sources */,
 				BD22AD0023F812E1002BA73B /* ParserHelper.swift in Sources */,
+				BD43FCFC23FC1944005D53D2 /* AirportTimetable.swift in Sources */,
 				BD43FCF023FAF8AC005D53D2 /* AirportViewController.swift in Sources */,
 				BD22AD1223F82B95002BA73B /* AirportService.swift in Sources */,
 				BD43FCED23FAC3F9005D53D2 /* DynamicValue.swift in Sources */,
 				BD22AD0523F8174E002BA73B /* ErrorResult.swift in Sources */,
+				BD9A74E123FC72F2007CFBCF /* DateExtension.swift in Sources */,
+				BD9A74D023FC5188007CFBCF /* ArrivalViewModel.swift in Sources */,
+				BD9A74D823FC5C6E007CFBCF /* ArrivalTableViewCell.swift in Sources */,
 				BD43FCF423FAFF6B005D53D2 /* AirportTableViewCell.swift in Sources */,
 				BD43FCE923FAC2F9005D53D2 /* AirportViewModel.swift in Sources */,
+				BD43FCFA23FC17B2005D53D2 /* AirportTimetableService.swift in Sources */,
 				BD22AD0C23F822EF002BA73B /* RequestHandler.swift in Sources */,
 				BD22AD1023F82AB2002BA73B /* Country.swift in Sources */,
+				BD9A74DA23FC6687007CFBCF /* ArrivalViewController.swift in Sources */,
 				BD58664923F8107C001E6456 /* Airport.swift in Sources */,
 				BD58662623F807BA001E6456 /* AppDelegate.swift in Sources */,
 				BD43FCF223FAFDE5005D53D2 /* AirportDataSourceAndDelegate.swift in Sources */,
 				BD58662823F807BA001E6456 /* SceneDelegate.swift in Sources */,
+				BD9A74D623FC5BBF007CFBCF /* ArrivalDataSourceAndDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +390,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD58663D23F807BD001E6456 /* AirportTests.swift in Sources */,
+				BD9A74E323FC7338007CFBCF /* DateExtensionTests.swift in Sources */,
+				BD43FCF823FC175C005D53D2 /* AirportTimetableServiceTests.swift in Sources */,
 				BD22AD0E23F8294C002BA73B /* AirportServiceTests.swift in Sources */,
 				BD43FCF623FB0131005D53D2 /* AirportDataSourceAndDelegateTests.swift in Sources */,
+				BD9A74E523FC85F6007CFBCF /* AirportTimetableTests.swift in Sources */,
+				BD9A74DF23FC6CEA007CFBCF /* StringExtensionTests.swift in Sources */,
+				BD9A74D223FC57A8007CFBCF /* ArrivalViewModelTests.swift in Sources */,
 				BD43FCE623F83CC8005D53D2 /* AirportViewModelTests.swift in Sources */,
+				BD9A74D423FC5B32007CFBCF /* ArrivalDataSourceAndDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

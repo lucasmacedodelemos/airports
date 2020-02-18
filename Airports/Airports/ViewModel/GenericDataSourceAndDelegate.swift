@@ -10,5 +10,5 @@ import Foundation
 
 class GenericDataSourceAndDelegate<T>: NSObject {
     var data: DynamicValue<[T]> = DynamicValue([])
-    var router: DynamicValue<T?> = DynamicValue(nil)
+    var selected: DynamicValue<T?> = DynamicValue(nil)
 }

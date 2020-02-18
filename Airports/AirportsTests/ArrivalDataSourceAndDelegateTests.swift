@@ -1,23 +1,27 @@
 //
-//  AirportDataSourceAndDelegateTests.swift
+//  ArrivalDataSourceAndDelegateTests.swift
 //  AirportsTests
 //
-//  Created by Lucas Macedo de Lemos on 17/02/20.
+//  Created by Lucas Macedo de Lemos on 18/02/20.
 //  Copyright © 2020 Lucas Macedo de Lemos. All rights reserved.
 //
 
 import XCTest
 @testable import Airports
 
-class AirportDataSourceAndDelegateTests: XCTestCase {
+class ArrivalDataSourceAndDelegateTests: XCTestCase {
 
-    var dataSourceAndDelegate: AirportDataSourceAndDelegate!
+    var dataSourceAndDelegate: ArrivalDataSourceAndDelegate!
     
-    let airports = [Airport(airportId: 667, nameAirport: "nameAirport", nameCountry: "nameCountry", codeIataAirport: "BGC", codeIso2Country: "PT")]
+    let airportTimetables = [AirportTimetable(airline: Airline(iataCode: "BA", icaoCode: "BAW", name: "British Airways"),
+                                              arrival: Arrival(scheduledTime: nil),
+                                              flight: Flight(iataNumber: "aa184", icaoNumber: "aal184", number: "184"),
+                                              status: .landed,
+                                              codeshared: nil)]
     
     override func setUp() {
         super.setUp()
-        dataSourceAndDelegate = AirportDataSourceAndDelegate()
+        dataSourceAndDelegate = ArrivalDataSourceAndDelegate()
     }
 
     override func tearDown() {
@@ -37,7 +41,7 @@ class AirportDataSourceAndDelegateTests: XCTestCase {
     
     func testWithValue() {
         
-        dataSourceAndDelegate.data.value = airports
+        dataSourceAndDelegate.data.value = airportTimetables
         
         let tableView = UITableView()
         tableView.dataSource = dataSourceAndDelegate
@@ -47,17 +51,18 @@ class AirportDataSourceAndDelegateTests: XCTestCase {
     
     func testCellType() {
         
-        dataSourceAndDelegate.data.value = airports
+        dataSourceAndDelegate.data.value = airportTimetables
         
         let tableView = UITableView()
         tableView.dataSource = dataSourceAndDelegate
-        tableView.register(AirportTableViewCell.self, forCellReuseIdentifier: "AirportTableViewCell")
+        tableView.register(ArrivalTableViewCell.self, forCellReuseIdentifier: "ArrivalTableViewCell")
 
         let indexPath = IndexPath(row: 0, section: 0)
         
-        guard let _ = dataSourceAndDelegate.tableView(tableView, cellForRowAt: indexPath) as? AirportTableViewCell else {
+        guard let _ = dataSourceAndDelegate.tableView(tableView, cellForRowAt: indexPath) as? ArrivalTableViewCell else {
             XCTAssert(false)
             return
         }
     }
+
 }

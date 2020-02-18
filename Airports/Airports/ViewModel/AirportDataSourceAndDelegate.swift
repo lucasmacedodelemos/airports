@@ -30,7 +30,7 @@ class AirportDataSourceAndDelegate: GenericDataSourceAndDelegate<Airport>, UITab
             return
         }
         
-        router.value = airport
+        selected.value = airport
     }
     
 }

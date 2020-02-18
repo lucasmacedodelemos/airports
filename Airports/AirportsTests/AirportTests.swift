@@ -11,7 +11,7 @@ import XCTest
 
 class AirportTests: XCTestCase {
 
-    let airportJSON: [String : Any] = ["airportId": 667,
+    let airportDictionary: [String : Any] = ["airportId": 667,
                                        "codeIataAirport": "BGC",
                                        "codeIso2Country": "PT",
                                        "nameAirport": "Braganca",
@@ -27,11 +27,11 @@ class AirportTests: XCTestCase {
 
     func testParse() {
         
-        let result = Airport.parseObject(dictionary: airportJSON)
+        let result = Airport.parseObject(dictionary: airportDictionary)
         
         switch result {
-        case .success(let converter):
-            XCTAssertEqual(converter.nameAirport, airportJSON["nameAirport"] as! String)
+        case .success(let airport):
+            XCTAssertEqual(airport.nameAirport, airportDictionary["nameAirport"] as! String)
         default:
             XCTFail()
         }
