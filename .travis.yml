@@ -1,0 +1,4 @@
+language: swift
+osx_image: xcode11.3
+script: xcodebuild clean build test -project Airports.xcodeproj/ -scheme Airports -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.3,name=iPhone 8" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+after_success: bash <(curl -s https://codecov.io/bash)
