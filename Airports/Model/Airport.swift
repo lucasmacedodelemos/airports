@@ -12,7 +12,6 @@ struct Airport {
     
     let airportId: Int
     let nameAirport: String
-    let nameCountry: String
     let codeIataAirport: String
     let codeIso2Country: String
 }
@@ -23,7 +22,6 @@ extension Airport: Parceable {
         
         guard let airportId = dictionary["airportId"] as? Int,
             let nameAirport = dictionary["nameAirport"] as? String,
-            let nameCountry = dictionary["nameCountry"] as? String,
             let codeIataAirport = dictionary["codeIataAirport"] as? String,
             let codeIso2Country = dictionary["codeIso2Country"] as? String else {
                 return Result.failure(ErrorResult.parser(string: "Unable to parse airport"))
@@ -31,7 +29,6 @@ extension Airport: Parceable {
         
         let airport = Airport(airportId: airportId,
                               nameAirport: nameAirport,
-                              nameCountry: nameCountry,
                               codeIataAirport: codeIataAirport,
                               codeIso2Country: codeIso2Country)
         

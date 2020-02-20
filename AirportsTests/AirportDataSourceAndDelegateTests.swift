@@ -13,7 +13,7 @@ class AirportDataSourceAndDelegateTests: XCTestCase {
 
     var dataSourceAndDelegate: AirportDataSourceAndDelegate!
     
-    let airports = [Airport(airportId: 667, nameAirport: "nameAirport", nameCountry: "nameCountry", codeIataAirport: "BGC", codeIso2Country: "PT")]
+    let airports = [Airport(airportId: 667, nameAirport: "nameAirport", codeIataAirport: "BGC", codeIso2Country: "PT")]
     
     override func setUp() {
         super.setUp()
