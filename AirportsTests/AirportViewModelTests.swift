@@ -49,7 +49,7 @@ class AirportViewModelTests: XCTestCase {
         
         let expectation = XCTestExpectation(description: "Fetch airports")
         
-        service.airports = [Airport(airportId: 667, nameAirport: "nameAirport", nameCountry: "nameCountry", codeIataAirport: "BGC", codeIso2Country: "PT")]
+        service.airports = [Airport(airportId: 667, nameAirport: "nameAirport", codeIataAirport: "BGC", codeIso2Country: "PT")]
         
         viewModel.onErrorHandling = { error in
             XCTAssert(false)
